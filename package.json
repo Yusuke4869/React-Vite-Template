@@ -10,6 +10,9 @@
     "format": "prettier --ignore-path .gitignore --write --ignore-unknown .",
     "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ."
   },
+  "engines": {
+    "node": "18.12.0"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
