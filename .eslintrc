@@ -26,5 +26,6 @@
         "namedComponents": "arrow-function"
       }
     ]
-  }
+  },
+  "ignorePatterns": ["*.config.ts"]
 }
