@@ -30,7 +30,7 @@
     "npm": "Please use yarn instead"
   },
   "dependencies": {
-    "destyle.css": "^3.0.2",
+    "destyle.css": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wouter": "^2.8.0-alpha.2"
