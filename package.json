@@ -30,6 +30,10 @@
     "node": "18.15.0",
     "npm": "Please use yarn instead"
   },
+  "volta": {
+    "node": "18.15.0",
+    "yarn": "3.5.0"
+  },
   "dependencies": {
     "destyle.css": "^4.0.0",
     "react": "^18.2.0",
