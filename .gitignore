@@ -23,5 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# yarn
+.yarn/*
+!.yarn/releases
+
 # Git hook
 prepare-commit-msg
