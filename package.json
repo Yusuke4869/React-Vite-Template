@@ -25,10 +25,10 @@
       "yarn format"
     ]
   },
-  "packageManager": "yarn@3.6.2",
+  "packageManager": "yarn@3.6.3",
   "volta": {
     "node": "18.17.1",
-    "yarn": "3.6.2"
+    "yarn": "3.6.3"
   },
   "dependencies": {
     "destyle.css": "^4.0.0",
