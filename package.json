@@ -11,8 +11,8 @@
     "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx} --fix",
     "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
     "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
-    "format": "prettier --ignore-path .gitignore --write --ignore-unknown .",
-    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown .",
+    "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
+    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -27,8 +27,7 @@
   },
   "packageManager": "yarn@3.6.3",
   "volta": {
-    "node": "18.17.1",
-    "yarn": "3.6.3"
+    "node": "18.17.1"
   },
   "dependencies": {
     "destyle.css": "^4.0.0",
@@ -56,13 +55,11 @@
     "husky": "^8.0.1",
     "lint-staged": "^14.0.0",
     "postcss": "^8.4.18",
-    "prettier": "^2.7.1",
+    "prettier": "^3.0.0",
     "sass": "^1.55.0",
     "stylelint": "^15.0.0",
-    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^4.0.0",
     "stylelint-config-standard-scss": "^11.0.0",
-    "stylelint-prettier": "^3.0.0",
     "typescript": "^5.0.0",
     "vite": "^4.0.0"
   }
