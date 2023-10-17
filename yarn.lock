@@ -5908,13 +5908,13 @@ __metadata:
   linkType: hard
 
 "wouter@npm:^2.8.0-alpha.2":
-  version: 2.12.0
-  resolution: "wouter@npm:2.12.0"
+  version: 2.12.1
+  resolution: "wouter@npm:2.12.1"
   dependencies:
     use-sync-external-store: ^1.0.0
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 882e89e62c1a0f516c650cad1e4ed3da9d4a9076f10df0f69cb68feebec7d8d543ecd34b02db282cc29df7f96a9cc59fc9b1870585ab6049780565d600baf13f
+  checksum: 89f41a6d7c7cd5e56eea9f4c98e0594f2a6c1fc5166cbee44a08aa87c2c9a10fb3e32db6b50dfd8afa880a1e94ecda121daef2768ba0bbb92a1ea87ed2f6b878
   languageName: node
   linkType: hard
 
