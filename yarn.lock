@@ -2050,9 +2050,9 @@ __metadata:
   linkType: hard
 
 "destyle.css@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "destyle.css@npm:4.0.0"
-  checksum: 068442502c9bc3b1224b512fcb8b6d7e2c78675b7c320e594804eb3df68e5ae552b05d2a7c8639da4c3afbab5307854d7c4a56e7c23110ae6b38165187e6c8fe
+  version: 4.0.1
+  resolution: "destyle.css@npm:4.0.1"
+  checksum: fd969b763793583c9a5a5764548fd5271512390025a2020cff313f36f08d451d7db2dbe674370047529c78fe1fca2b45b63334bb27aad273acc969344d04ff91
   languageName: node
   linkType: hard
 
