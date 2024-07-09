@@ -2764,6 +2764,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-react-refresh@npm:^0.4.7":
+  version: 0.4.7
+  resolution: "eslint-plugin-react-refresh@npm:0.4.7"
+  peerDependencies:
+    eslint: ">=7"
+  checksum: 10c0/78600fe6b10905e7a068a377a381f315c962e3cb7c0575ffcb2136a1fe3dd6936bdfabb56c8f053a581b322a8fbffd7b7ec4b6fa7e227e5470f38fbe9bb170ee
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react@npm:^7.31.10":
   version: 7.34.3
   resolution: "eslint-plugin-react@npm:7.34.3"
@@ -5263,6 +5272,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.6.1"
     eslint-plugin-react: "npm:^7.31.10"
     eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.7"
     husky: "npm:^9.0.0"
     lint-staged: "npm:^15.0.0"
     postcss: "npm:^8.4.18"
