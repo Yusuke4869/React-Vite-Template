@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: `${process.cwd()}/dist`,
+    emptyOutDir: true,
   },
   resolve: {
     alias: {
