@@ -4,7 +4,9 @@ import "~/styles/global.scss";
 
 import Router from "./routes";
 
-const App = () => (
+import type { FC } from "react";
+
+const App: FC = () => (
   <StrictMode>
     <Router />
   </StrictMode>
