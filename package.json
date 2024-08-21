@@ -10,7 +10,7 @@
     "lint": "eslint --fix ./src/**/*.{ts,tsx} && prettier --write .",
     "format": "prettier --write .",
     "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
