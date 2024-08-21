@@ -6857,15 +6857,15 @@ __metadata:
   linkType: hard
 
 "wouter@npm:^3.0.0":
-  version: 3.3.2
-  resolution: "wouter@npm:3.3.2"
+  version: 3.3.3
+  resolution: "wouter@npm:3.3.3"
   dependencies:
     mitt: "npm:^3.0.1"
     regexparam: "npm:^3.0.0"
     use-sync-external-store: "npm:^1.0.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 10c0/6b53468fe81dc018271316fee34edae11a8de7a11df2add745d9bfd165ba22b44cb7e95244b6a758eb6fa7bccc2c9f46a835302ffd9b32adbba6f039310811de
+  checksum: 10c0/c7c6e39fb87739f094e0312161073329d7d598fbfa642c90cc242a5469b841d9ed62ec5d44f3df2ecb44e64ace38750c2637bd6957c9fe494c1bda4a2047eb2a
   languageName: node
   linkType: hard
 
