@@ -7,20 +7,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx}",
-    "lint:fix": "eslint --fix ./src/**/*.{js,jsx,ts,tsx}",
+    "lint": "eslint --fix ./src/**/*.{ts,tsx} && prettier --write .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:fix",
-      "yarn format"
-    ],
-    "src/**/*.{css,scss}": [
-      "yarn stylelint:fix",
-      "yarn format"
+    "src/**/*.{ts,tsx}": [
+      "pnpm check"
     ]
   },
   "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
