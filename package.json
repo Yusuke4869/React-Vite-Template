@@ -28,7 +28,6 @@
     "node": "20.17.0"
   },
   "dependencies": {
-    "destyle.css": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wouter": "^3.0.0"
