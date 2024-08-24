@@ -1,6 +1,6 @@
-# Template of React with vite
+# Template of React with Vite
 
-This is my React Template with vite.
+My React Template with Vite
 
 ## License
 

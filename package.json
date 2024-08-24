@@ -7,30 +7,21 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx}",
-    "lint:fix": "eslint --fix ./src/**/*.{js,jsx,ts,tsx}",
-    "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
-    "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
+    "lint": "eslint --fix ./src/**/*.{ts,tsx} && prettier --write .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepare": "husky install"
+    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
+    "prepare": "husky"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:fix",
-      "yarn format"
-    ],
-    "src/**/*.{css,scss}": [
-      "yarn stylelint:fix",
-      "yarn format"
+    "src/**/*.{ts,tsx}": [
+      "pnpm check"
     ]
   },
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
   "volta": {
     "node": "20.17.0"
   },
   "dependencies": {
-    "destyle.css": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wouter": "^3.0.0"
@@ -55,10 +46,6 @@
     "lint-staged": "^15.0.0",
     "postcss": "^8.4.18",
     "prettier": "^3.0.0",
-    "sass": "^1.55.0",
-    "stylelint": "^16.0.0",
-    "stylelint-config-recess-order": "^5.0.0",
-    "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
   }
