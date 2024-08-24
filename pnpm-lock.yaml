@@ -16,7 +16,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       wouter:
         specifier: ^3.0.0
-        version: 3.3.3(react@18.3.1)
+        version: 3.3.4(react@18.3.1)
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -1892,8 +1892,8 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
-  wouter@3.3.3:
-    resolution: {integrity: sha512-dvbRx1K/7tjAvKY8v0D2MRvWMbvrmpQf917cfCHFgJ7+IhXWrYZPhZQRa34ABOr7NUxjHqUYwhlIUd0frrfMVw==}
+  wouter@3.3.4:
+    resolution: {integrity: sha512-xGKUhG4j4qaR7CYTSI0yBDAJzIFixCZvEh/MHCvvxoTsszquWBM8MXJOE4v+3J/MGwS7CTodZt/PhHLP6RfK9g==}
     peerDependencies:
       react: '>=16.8.0'
 
@@ -3956,7 +3956,7 @@ snapshots:
 
   word-wrap@1.2.5: {}
 
-  wouter@3.3.3(react@18.3.1):
+  wouter@3.3.4(react@18.3.1):
     dependencies:
       mitt: 3.0.1
       react: 18.3.1
