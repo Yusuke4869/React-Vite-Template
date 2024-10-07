@@ -17,7 +17,7 @@
       "pnpm check"
     ]
   },
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@9.12.1",
   "volta": {
     "node": "20.18.0"
   },
