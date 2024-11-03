@@ -32,7 +32,7 @@ importers:
         version: 8.42.3
       '@types/node':
         specifier: ^20.0.0
-        version: 20.17.5
+        version: 20.17.6
       '@types/react':
         specifier: ^18.0.22
         version: 18.3.12
@@ -47,7 +47,7 @@ importers:
         version: 8.12.2(eslint@9.14.0)(typescript@5.6.3)
       '@vitejs/plugin-react':
         specifier: ^4.0.0
-        version: 4.3.3(vite@5.4.10(@types/node@20.17.5)(sass@1.77.8))
+        version: 4.3.3(vite@5.4.10(@types/node@20.17.6)(sass@1.77.8))
       autoprefixer:
         specifier: ^10.4.13
         version: 10.4.20(postcss@8.4.47)
@@ -98,7 +98,7 @@ importers:
         version: 8.12.2(eslint@9.14.0)(typescript@5.6.3)
       vite:
         specifier: ^5.0.0
-        version: 5.4.10(@types/node@20.17.5)(sass@1.77.8)
+        version: 5.4.10(@types/node@20.17.6)(sass@1.77.8)
 
 packages:
 
@@ -541,8 +541,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.17.5':
-    resolution: {integrity: sha512-n8FYY/pRxu496441gIcAQFZPKXbhsd6VZygcq+PTSZ75eMh/Ke0hCAROdUa21qiFqKNsPPYic46yXDO1JGiPBQ==}
+  '@types/node@20.17.6':
+    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
 
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
@@ -2361,7 +2361,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.17.5':
+  '@types/node@20.17.6':
     dependencies:
       undici-types: 6.19.8
 
@@ -2457,14 +2457,14 @@ snapshots:
       '@typescript-eslint/types': 8.12.2
       eslint-visitor-keys: 3.4.3
 
-  '@vitejs/plugin-react@4.3.3(vite@5.4.10(@types/node@20.17.5)(sass@1.77.8))':
+  '@vitejs/plugin-react@4.3.3(vite@5.4.10(@types/node@20.17.6)(sass@1.77.8))':
     dependencies:
       '@babel/core': 7.25.8
       '@babel/plugin-transform-react-jsx-self': 7.25.7(@babel/core@7.25.8)
       '@babel/plugin-transform-react-jsx-source': 7.25.7(@babel/core@7.25.8)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.10(@types/node@20.17.5)(sass@1.77.8)
+      vite: 5.4.10(@types/node@20.17.6)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
 
@@ -3950,13 +3950,13 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  vite@5.4.10(@types/node@20.17.5)(sass@1.77.8):
+  vite@5.4.10(@types/node@20.17.6)(sass@1.77.8):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.0
     optionalDependencies:
-      '@types/node': 20.17.5
+      '@types/node': 20.17.6
       fsevents: 2.3.3
       sass: 1.77.8
 
