@@ -8,14 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --fix ./src/**/*.{ts,tsx} && prettier --write .",
-    "format": "prettier --write .",
-    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
-    "prepare": "husky"
-  },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "pnpm check"
-    ]
+    "fmt": "prettier --write .",
+    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check ."
   },
   "packageManager": "pnpm@9.15.4",
   "dependencies": {
@@ -44,8 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.7",
     "globals": "^15.9.0",
-    "husky": "^9.0.0",
-    "lint-staged": "^15.0.0",
+    "lefthook": "^1.12.2",
     "postcss": "^8.4.18",
     "prettier": "^3.0.0",
     "typescript": "^5.0.0",
