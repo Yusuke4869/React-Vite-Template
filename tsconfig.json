@@ -19,11 +19,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "verbatimModuleSyntax": true,
-    "noUncheckedIndexedAccess": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "noUncheckedIndexedAccess": true
   },
   "include": ["src", "src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
