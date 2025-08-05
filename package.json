@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint --fix ./src/**/*.{ts,tsx} && prettier --write .",
     "fmt": "prettier --write .",
-    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
-    "prepare": "husky"
+    "check": "eslint ./src/**/*.{ts,tsx} && prettier --check ."
   },
   "packageManager": "pnpm@9.15.4",
   "dependencies": {
