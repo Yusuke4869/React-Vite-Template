@@ -12,11 +12,6 @@
     "check": "eslint ./src/**/*.{ts,tsx} && prettier --check .",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "pnpm check"
-    ]
-  },
   "packageManager": "pnpm@9.15.4",
   "dependencies": {
     "react": "^18.2.0",
