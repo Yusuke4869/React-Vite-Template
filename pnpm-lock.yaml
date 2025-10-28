@@ -23,7 +23,7 @@ importers:
         version: 9.38.0
       '@types/node':
         specifier: ^22.0.0
-        version: 22.18.12
+        version: 22.18.13
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.2
@@ -35,7 +35,7 @@ importers:
         version: 8.46.2(eslint@9.38.0)(typescript@5.9.3)
       '@vitejs/plugin-react':
         specifier: ^5.0.0
-        version: 5.1.0(vite@7.1.12(@types/node@22.18.12)(sass@1.77.8))
+        version: 5.1.0(vite@7.1.12(@types/node@22.18.13)(sass@1.77.8))
       eslint:
         specifier: ^9.0.0
         version: 9.38.0
@@ -71,7 +71,7 @@ importers:
         version: 8.46.2(eslint@9.38.0)(typescript@5.9.3)
       vite:
         specifier: ^7.0.0
-        version: 7.1.12(@types/node@22.18.12)(sass@1.77.8)
+        version: 7.1.12(@types/node@22.18.13)(sass@1.77.8)
 
 packages:
 
@@ -548,8 +548,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.18.12':
-    resolution: {integrity: sha512-BICHQ67iqxQGFSzfCFTT7MRQ5XcBjG5aeKh5Ok38UBbPe5fxTyE+aHFxwVrGyr8GNlqFMLKD1D3P2K/1ks8tog==}
+  '@types/node@22.18.13':
+    resolution: {integrity: sha512-Bo45YKIjnmFtv6I1TuC8AaHBbqXtIo+Om5fE4QiU1Tj8QR/qt+8O3BAtOimG5IFmwaWiPmB3Mv3jtYzBA4Us2A==}
 
   '@types/react-dom@19.2.2':
     resolution: {integrity: sha512-9KQPoO6mZCi7jcIStSnlOWn2nEF3mNmyr3rIAsGnAbQKYbRLyqmeSc39EVgtxXVia+LMT8j3knZLAZAh+xLmrw==}
@@ -2400,7 +2400,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.18.12':
+  '@types/node@22.18.13':
     dependencies:
       undici-types: 6.21.0
 
@@ -2564,7 +2564,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vitejs/plugin-react@5.1.0(vite@7.1.12(@types/node@22.18.12)(sass@1.77.8))':
+  '@vitejs/plugin-react@5.1.0(vite@7.1.12(@types/node@22.18.13)(sass@1.77.8))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -2572,7 +2572,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.43
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.1.12(@types/node@22.18.12)(sass@1.77.8)
+      vite: 7.1.12(@types/node@22.18.13)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
 
@@ -4063,7 +4063,7 @@ snapshots:
     dependencies:
       react: 19.2.0
 
-  vite@7.1.12(@types/node@22.18.12)(sass@1.77.8):
+  vite@7.1.12(@types/node@22.18.13)(sass@1.77.8):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -4072,7 +4072,7 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.18.12
+      '@types/node': 22.18.13
       fsevents: 2.3.3
       sass: 1.77.8
 
