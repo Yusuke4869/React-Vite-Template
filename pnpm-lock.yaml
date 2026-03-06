@@ -23,7 +23,7 @@ importers:
         version: 9.39.3
       '@types/node':
         specifier: ^24.0.0
-        version: 24.11.0
+        version: 24.11.2
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.14
@@ -35,7 +35,7 @@ importers:
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
       '@vitejs/plugin-react':
         specifier: ^5.0.0
-        version: 5.1.4(vite@7.3.1(@types/node@24.11.0)(sass@1.77.8))
+        version: 5.1.4(vite@7.3.1(@types/node@24.11.2)(sass@1.77.8))
       eslint:
         specifier: ^9.0.0
         version: 9.39.3
@@ -71,7 +71,7 @@ importers:
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
       vite:
         specifier: ^7.0.0
-        version: 7.3.1(@types/node@24.11.0)(sass@1.77.8)
+        version: 7.3.1(@types/node@24.11.2)(sass@1.77.8)
 
 packages:
 
@@ -615,8 +615,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@24.11.0':
-    resolution: {integrity: sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==}
+  '@types/node@24.11.2':
+    resolution: {integrity: sha512-HTsxyfkxTNxOXBsEdgIOzbMgBjDGPvkTfw0B1m09j1LFPk8u3tSL8SNBRTSc381wXXX/Wp93qPi1kQXwnWuHgA==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
 
-  immutable@4.3.7:
-    resolution: {integrity: sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==}
+  immutable@4.3.8:
+    resolution: {integrity: sha512-d/Ld9aLbKpNwyl0KiM2CT1WYvkitQ1TSvmRtkcV8FKStiDoA7Slzgjmb/1G2yhKM1p0XeNOieaTbFZmU1d3Xuw==}
 
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
@@ -2560,7 +2560,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@24.11.0':
+  '@types/node@24.11.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -2722,7 +2722,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vitejs/plugin-react@5.1.4(vite@7.3.1(@types/node@24.11.0)(sass@1.77.8))':
+  '@vitejs/plugin-react@5.1.4(vite@7.3.1(@types/node@24.11.2)(sass@1.77.8))':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.29.0)
@@ -2730,7 +2730,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-rc.3
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.3.1(@types/node@24.11.0)(sass@1.77.8)
+      vite: 7.3.1(@types/node@24.11.2)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
 
@@ -3463,7 +3463,7 @@ snapshots:
 
   ignore@7.0.5: {}
 
-  immutable@4.3.7:
+  immutable@4.3.8:
     optional: true
 
   import-fresh@3.3.1:
@@ -3955,7 +3955,7 @@ snapshots:
   sass@1.77.8:
     dependencies:
       chokidar: 3.6.0
-      immutable: 4.3.7
+      immutable: 4.3.8
       source-map-js: 1.2.1
     optional: true
 
@@ -4218,7 +4218,7 @@ snapshots:
     dependencies:
       react: 19.2.4
 
-  vite@7.3.1(@types/node@24.11.0)(sass@1.77.8):
+  vite@7.3.1(@types/node@24.11.2)(sass@1.77.8):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -4227,7 +4227,7 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
       fsevents: 2.3.3
       sass: 1.77.8
 
