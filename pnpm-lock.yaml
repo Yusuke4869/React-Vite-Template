@@ -35,7 +35,7 @@ importers:
         version: 8.62.1(eslint@10.6.0)(typescript@6.0.3)
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.0.3(vite@8.1.1(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8))
+        version: 6.0.3(vite@8.1.2(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8))
       eslint:
         specifier: ^10.0.0
         version: 10.6.0
@@ -71,7 +71,7 @@ importers:
         version: 8.62.1(eslint@10.6.0)(typescript@6.0.3)
       vite:
         specifier: ^8.0.0
-        version: 8.1.1(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8)
+        version: 8.1.2(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8)
 
 packages:
 
@@ -1911,8 +1911,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  vite@8.1.1:
-    resolution: {integrity: sha512-X/05/cT+VITy2AeDc1der6smvGWWREtL4hPbPTaVbjSBuuWkmNOjR6HP3NzqcQA2nF6VHGUPaFRJyft/2AE9Kg==}
+  vite@8.1.2:
+    resolution: {integrity: sha512-6YYPbRXTxx6bRXmOn7XdnQAy5DQNHhDgtjhDHI13oe4pY93kkcdGJWxpGwOm++/Wh0QpQhDrpIoVMrmrsI5AGQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2536,10 +2536,10 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.12.2':
     optional: true
 
-  '@vitejs/plugin-react@6.0.3(vite@8.1.1(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8))':
+  '@vitejs/plugin-react@6.0.3(vite@8.1.2(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.1.1(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8)
+      vite: 8.1.2(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8)
 
   acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
@@ -4009,7 +4009,7 @@ snapshots:
     dependencies:
       react: 19.2.7
 
-  vite@8.1.1(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8):
+  vite@8.1.2(@types/node@24.13.2)(esbuild@0.27.7)(sass@1.77.8):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
